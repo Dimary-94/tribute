@@ -1,0 +1,53 @@
+// Import site utilities.
+@import '../../global/utils/init';
+
+.feed-icon {
+  display: none;
+}
+
+.hero-component {
+  height: 100%;
+  min-height: 769px;
+  background: url(http://tribute.omiron.software/img/hero-section.jpeg) top no-repeat;
+  background-size: cover;
+  color: #ccc;
+}
+
+.hero-desc {
+  
+  padding-top: 300px;
+  padding-left: 30px;
+  color: #7B6C63;
+
+  h2 {
+    margin: 0;
+    font-size: 66px;
+    font-weight: 400;
+    line-height: 1.13;
+    color: #fff;
+    text-transform: uppercase;
+
+    span {
+      color: #7B6C63;
+    }
+  }
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.hero-btn {
+  margin-top: 60px;
+
+  a {
+    display: inline-block;
+    background-color: #282320;
+    width: 245px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 3rem;
+    border-radius: 5px;
+  }
+}

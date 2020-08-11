@@ -25,3 +25,4 @@ function tribute_preprocess_page(array &$variables) {
 function tribute_preprocess_form(array &$variables) {
 
 }
+

@@ -104,3 +104,43 @@ slick-carousel:
       minified: true
   dependencies:
     - core/jquery
+
+hero-component:
+  css:
+    component:
+      dist/css/hero-component.css: {}
+
+block-info:
+  css:
+    component:
+      dist/css/block-info.css: {}
+
+block-timeline:
+  css:
+    component:
+      dist/css/block-timeline.css: {}
+
+block-lifestoryry:
+  css:
+    component:
+      dist/css/block-lifestoryry.css: {}
+
+timeline-end:
+  css:
+    component:
+      dist/css/timeline-end.css: {}
+
+timeline-btn:
+  css:
+    component:
+      dist/css/timeline-btn.css: {}
+
+timeline-btn:
+  css:
+    component:
+      dist/css/timeline-btn.css: {}
+
+timeline-btn:
+  css:
+    component:
+      dist/css/timeline-btn.css: {}

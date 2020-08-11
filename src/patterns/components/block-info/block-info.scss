@@ -1,0 +1,78 @@
+// Import site utilities.
+@import '../../global/utils/init';
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #7B6C63;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+
+  &:after {
+    align-self: center;
+    width: 100%;
+    max-width: 76px;
+    height: 6px;
+    margin-top: 50px;
+    content: "";
+    background-color: #7b6c63;
+  }
+}
+
+.info {
+  .info_content {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+
+.img_info {
+  margin-top: 57px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+
+  .img_info_content,
+  .img_content {
+    padding: 0 65px;
+    text-align: center;
+    color: #212121;
+    display: grid;
+    justify-content: center;
+
+    .div_img {
+      max-width: 460px;
+    }
+  }
+
+  .img_info_content {
+    text-align: left;
+
+    .content_caption {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content_caption:after,
+    .content_caption:before {
+      align-self: center;
+      width: 100%;
+      max-width: 76px;
+      height: 3px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      content: "";
+      background-color: #7b6c63;
+    }
+
+    .content_caption p:last-child {
+      font-style: italic;
+      padding-left: 10px;
+    }
+  }
+}
