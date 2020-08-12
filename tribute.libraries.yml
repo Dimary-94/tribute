@@ -144,3 +144,7 @@ timeline-btn:
   css:
     component:
       dist/css/timeline-btn.css: {}
+
+script-test:
+  js:
+    //cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:  { type: external, attributes: { async: true } }

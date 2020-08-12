@@ -26,3 +26,6 @@ function tribute_preprocess_form(array &$variables) {
 
 }
 
+function tribute_page_attachments_alter(&$page) {
+  $page['#attached']['library'][] = 'tribute/script-test';
+}

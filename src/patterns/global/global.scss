@@ -38,10 +38,6 @@
   }
 }
 
-li {
-  list-style-type: none;
-}
-
 a {
   text-decoration: none;
   color: #fff;
@@ -49,14 +45,6 @@ a {
   &:hover {
     color: #ccc;
   }
-}
-
-img {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 100%;
-  object-fit: cover;
 }
 
 html {
@@ -133,6 +121,7 @@ img {
   width: 100%;
   border-style: none;
   max-width: 100%;
+  object-fit: cover;
   height: auto;
 }
 
@@ -256,6 +245,7 @@ dl {
 li {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 // Headings are always 'just a bit bigger' than body copy.
@@ -267,15 +257,6 @@ h4,
 h5,
 h6 {
   font-size: 1.25rem;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-
-  &:hover {
-    color: #ccc;
-  }
 }
 
 header {
@@ -316,7 +297,7 @@ header {
 
 .region-footer {
   height: 100px;
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
   color: #fff;
   display: flex;
   justify-content: center;

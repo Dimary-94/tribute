@@ -1,5 +1,6 @@
 {%
   include "@tribute/timeline-btn/timeline-btn.twig" with {
-    "link": content.field_btn_link,
+    "url": content.field_btn_link[0]['#url'],
+    "title": content.field_btn_link[0]['#title'],
   } only
 %}
