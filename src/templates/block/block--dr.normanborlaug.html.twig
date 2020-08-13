@@ -1,0 +1,8 @@
+{%
+  include "@tribute/block-info/block-info.twig" with {
+    "title": label,
+    "image": content.field_doctor,
+    "descimage": content.field_desc_image,
+    "body": content.body,
+  } only
+%}

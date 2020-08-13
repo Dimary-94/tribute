@@ -1,0 +1,19 @@
+// Import site utilities.
+@import '../../global/utils/init';
+
+
+.btn-story {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 90px;
+
+  a {
+    display: inline-block;
+    background-color: #282320;
+    width: 345px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 3.7rem;
+    border-radius: 5px;
+  }
+}

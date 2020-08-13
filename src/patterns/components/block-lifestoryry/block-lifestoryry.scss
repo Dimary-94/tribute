@@ -1,0 +1,32 @@
+// Import site utilities.
+@import '../../global/utils/init';
+
+.block-lifestoryry {
+  .title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #7b6b63;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+
+    &::after {
+      align-self: center;
+      width: 100%;
+      max-width: 76px;
+      height: 6px;
+      margin-top: 50px;
+      content: '';
+      background-color: #7b6c63;
+    }
+  }
+
+  &__body {
+    margin: 50px 0;
+    text-align: center;
+    line-height: 1.8rem;
+  }
+}

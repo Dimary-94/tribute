@@ -29,10 +29,21 @@
 // https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 * {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 
   &::before,
   &::after {
     box-sizing: inherit;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    color: #ccc;
   }
 }
 
@@ -42,11 +53,6 @@ html {
   line-height: 1.15;
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
-}
-
-// Sections.
-body {
-  margin: 0;
 }
 
 // Render the `main` element consistently in IE11.
@@ -110,8 +116,12 @@ sup {
 
 // Embedded content.
 img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
   border-style: none;
   max-width: 100%;
+  object-fit: cover;
   height: auto;
 }
 
@@ -235,6 +245,7 @@ dl {
 li {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 // Headings are always 'just a bit bigger' than body copy.
@@ -246,5 +257,49 @@ h4,
 h5,
 h6 {
   font-size: 1.25rem;
-  margin: 0 0 1rem;
+}
+
+header {
+  background-color: #303030;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.region-header {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+
+  .site-name {
+    a {
+      font-size: 48px;
+    }
+  }
+}
+
+.menu {
+  display: flex;
+
+  .menu-item {
+    padding: 0 20px;
+    text-transform: uppercase;
+  }
+}
+
+.region-footer {
+  height: 100px;
+  background-color: #1c1c1c;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,0 +1,7 @@
+{%
+  include "@tribute/block-timeline/block-timeline.twig" with {
+    "image": content.field_image,
+    "date": content.field_date,
+    "body": content.body,
+  } only
+%}
